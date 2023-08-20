@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@600&display=swap');
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #FAEBD7;
+}
+
+#trimestre {
+    background: url(../imagens/Download\ premium\ image\ of\ Aerial\ view\ of\ beige\ beach\ by\ Busbus\ about\ beach\,\ beige\,\ beige\ minimalist\ wallpaper\,\ background\,\ and\ marble\ 2370668.jpg) right top fixed;
+    background-color: #36364248;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+#menuHorizontal {
+    background-color: rgb(37, 37, 39);
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menuHorizontal ul {
+    max-width: 900px;
+    list-style: none;
+    padding: 0;
+    background-color: rgb(37, 37, 39);
+}
+
+#menuHorizontal ul li {
+    display: inline;
+}
+
+#menuHorizontal ul li a {
+    color: #FFF;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+    transition: background .6s;
+}
+
+#menuHorizontal ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menuHorizontal ul li:first-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+
+#topopad {
+    padding: 10px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.tela-login {
+    width: 100vw;
+    height: 100vh;
+    background: #FAEBD7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.login-esquerda {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.login-esquerda>h1 {
+    font-size: 2vw;
+    color: #8e806a;
+}
+
+.img-esq {
+    width: 30vw;
+}
+
+.login-direita {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: #8e806a;
+    border-radius: 20px;
+    box-shadow: 0px 10px 40px #00000056;
+}
+
+.card-login>h1 {
+    color: #e4cda7;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px 0px;
+    width: 100%;
+}
+
+.textfield>input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: #e4cda7;
+    color: #8B4513;
+    font-size: 12pt;
+    box-shadow: 0px 10px 40px #00000056;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield>label {
+    color: #f0ffffde;
+    margin-bottom: 10px;
+}
+
+.textfield>input::placeholder {
+    color: #8B4513
+}
+
+.botao-login {
+    width: 100%;
+    padding: 16px 0px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #8b4513;
+    background: #e4cda7;
+    cursor: pointer;
+    box-shadow: 0px 10px 40px -12px #FAEBD7;
+}
+
+.teste2 {
+    width: 600px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #8B4513;
+    text-align: center;
+
+}
+
+.teste3 {
+    width: 800px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #8B4513;
+    text-align: center;
+
+}
+
+.teste4 {
+    width: 1000px;
+    height: 100px;
+    border-radius: 8px;
+    background-color: #8B4513;
+    text-align: center;
+
+}
+
+.teste2>p {
+    color: #FAEBD7;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+
+}
+
+.teste3>p {
+    color: #FAEBD7;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+
+}
+
+.teste4>p {
+    color: #FAEBD7;
+    font-family: 'Teko', sans-serif;
+    font-size: 80px;
+
+}
+
+.Info {
+    font-family: 'Noto sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-style: solid;
+    padding: 15px;
+    width: 50%;
+}
+
+.Info>img {
+    border-radius: 10px;
+}
+
+.paragrafo {
+    font-family: 'Teko', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    padding: 40px;
+}
+
+.paragrafoleft {
+    font-family: 'Teko', sans-serif;
+    text-align: left;
+    font-size: 35px;
+    padding: 40px;
+}
+
+.paragrafoinfo {
+    font-family: 'Noto sans', sans-serif;
+    text-align: center;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.paragrafoinfoleft {
+    font-family: 'Noto sans', sans-serif;
+    text-align: left;
+    font-size: 25px;
+    padding: 20px;
+}
+
+.iframes {
+    text-align: center;
+}
+
+.Conteudobtn {
+    font-family: 'Noto sans', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border-style: none;
+    padding: 15px;
+    width: 45%;
+    background-image: linear-gradient(45deg, #c1936b, #be9871, #f9e4b7);
+    transition: background-position 1.5s ease-in-out;
+}
+
+.Conteudobtn p {
+    color: black;
+}
+
+.testedacor a {
+    text-decoration: none;
+}
+
+#pandemia{
+    width:30;
+    height:30;
+}
